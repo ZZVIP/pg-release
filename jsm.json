@@ -182,15 +182,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "Wexshandian",
-			"name": "⚡️闪电┃秒播┃直连┃王二小",
-			"type": 3,
-			"api": "csp_Wexshandian",
-			"jar": "./jar/wex4-25.txt",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
 			"key": "Wexvipduanju",
 			"name": "🌸短劇┃王二小",
 			"type": 3,
@@ -258,41 +249,6 @@
 			}
 		},
 		{
-			"key": "新6V",
-			"name": "🛩️新6V┃电影┃P2P",
-			"type": 3,
-			"api": "csp_WexXb6v",
-			"jar": "./jar/wex4-25.txt",
-			"searchable": 1,
-			"changeable": 0
-		  },
-		{
-			"key": "Wexciliso",
-			"name": "🛩️磁力┃聚合┃搜┃王二小",
-			"type": 3,
-			"api": "csp_Wexciliso",
-			"jar": "./jar/wex4-25.txt",
-			"searchable": 1,
-			"changeable": 0
-		},
-		{
-			"key": "玩偶",
-			"name": "👽玩偶哥哥┃4K弹幕&&&饭",
-			"type": 3,
-			"api": "csp_WoGG",
-			"jar": "./jar/fan.txt",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"aliToken": "tvfan/token.txt",
-				"quarkCookie": "tvfan/cookie.txt",
-				"from": "4k|auto|fhd",
-				"siteUrl": "https://api.wogg.xyz/",
-				"danMu": "弹"
-			}
-		},
-		{
 			"key": "酷看",
 			"name": "💡酷看┃秒播&&&饭",
 			"type": 3,
@@ -350,100 +306,10 @@
 			"ext": "https://www.maolvys.com/"
 		},
 		{
-			"key": "csp_Anime1",
-			"name": "🐾日本┃动漫&&&饭",
-			"type": 3,
-			"api": "csp_Anime1",
-			"jar": "./jar/fan.txt",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "酷奇",
-			"name": "🎤酷奇┃MV&&&饭",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./json/酷奇MV.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.597
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
-		},
-		{
-			"key": "MTV",
-			"name": "🎧明星┃MV&&&饭",
-			"type": 3,
-			"api": "csp_Bili",
-			"jar": "./jar/fan.txt",
-			"style": {
-				"type": "rect",
-				"ratio": 1.597
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0,
-			"ext": "./json/MTV.json"
-		},
-		{
 			"key": "白嫖",
 			"name": "白嫖影视",
 			"type": 3,
 			"api": "./json/bpys_open.js"
-		},
-		{
-			"key": "XBPQ_BaiPiao",
-			"name": "白嫖影视|XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
-			"ext": {
-				"地区": "[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
-				"分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
-				"分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
-			}
-		},
-		{
-			"key": "XBPQ_黑狐影院",
-			"name": "黑狐影院|XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
-			"ext": {
-				"站名": "黑狐影院",
-				"主页url": "http://fagmn.com",
-				"数组": "class=\"stui-vodlist__box\"&&</a",
-				"图片": "data-original=\"&&\"",
-				"标题": "title=\"&&\"",
-				"链接": "href=\"&&\"",
-				"嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
-				"过滤词": "/hls/#php",
-				"副标题": "<span class=\"pic-text text-right\">&&</span>",
-				"搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
-				"搜索模式": "1",
-				"搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
-				"搜索图片": "data-original=\"&&\"",
-				"搜索标题": "title=\"&&\"",
-				"搜索链接": "href=\"&&\"",
-				"搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
-				"搜索后缀": "/view/",
-				"线路数组": "href=\"#down&&/a>[替换:奇异视频>>黑狐一线#优酷视频>>黑狐二线#搜狐视频>>黑狐三线#咪咕视频>>黑狐四线]",
-				"线路标题": ">&&<",
-				"播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
-				"状态": "地区：&&</p>",
-				"导演": "导演：&&</p>",
-				"主演": "主演：&&</p>",
-				"简介": "简介：&&</div>",
-				"播放列表": "<a&&/a>",
-				"播放标题": ">&&<",
-				"播放链接": "href=\"&&\"",
-				"免嗅": "0",
-				"分类": "电影$1#电视剧$2#动漫$3#综艺$4",
-				"分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
-			}
 		},
 		{
 			"key": "XBPQ_文才",
@@ -569,67 +435,6 @@
 			}
 		},
 		{
-			"key": "蜜糖",
-			"name": "🍿蜜糖动漫|XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
-			"ext": {
-				"线路数组": "dropdown&&</div>",
-				"线路标题": "<span>&&<+【+<small>&&+集】",
-				"简介": "20px;\"&&</p>",
-				"分类url": "https://www.mitang.tv/vodshow/by/{by}/id/{cateId}",
-				"分类": "新番$122A#番剧$T22A#剧场$l22A#美漫$G22A"
-			}
-		},
-		{
-			"key": "修罗动漫",
-			"name": "修罗动漫|XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
-			"ext": {
-				"线路数组": "dropdown&&</div>",
-				"线路标题": "<span>&&<+【+<small>&&+集】",
-				"简介": "20px;\"&&</p>",
-				"分类url": "https://www.xiuluodm.com/vodtype/{cateId}-{year}.html",
-				"分类": "日本动漫$1#剧场版$2"
-			}
-		},
-		{
-			"key": "XBPQ_蚊子影视",
-			"name": "蚊子影视|XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
-			"ext": {
-				"站名": "蚊子影视",
-				"主页url": "https://wg.wzys.link",
-				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#网络短剧$21",
-				"分类url": "https://wg.wzys.link/index.php/vod/type/{cateId}--------{catePg}-{class}-{area}-{year}.html"
-			}
-		},
-		{
-			"key": "搜索6847",
-			"name": "6847|搜索|XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
-			"ext": {
-				"数组": "<a&&</a>",
-				"标题": "\">&&",
-				"嗅探词": "点播.php?id=",
-				"播放数组": "<body>&&</body>[替换:/p>>br]",
-				"线路数组": "<body>&&</body>",
-				"线路标题": "点播",
-				"播放列表": "<br&&</a>",
-				"播放链接": "href=\"&&<\"",
-				"播放标题": ">&&,<a",
-				"分类": "本站点仅限搜索&搜索需几秒,请耐心等待！中文搜不出就用拼音",
-				"搜索链接": "http://103.45.68.47:6800/gy/gy_ccIL/点播.php?searchword={wd}"
-			}
-		},
-		{
 			"key": "网盘配置",
 			"name": "网盘及彈幕配置",
 			"type": 3,
@@ -637,12 +442,6 @@
 			"searchable": 0,
 			"changeable": 0,
 			"ext": "./lib/tokenm.json"
-		},
-		{
-			"key": "Local",
-			"name": "本地",
-			"type": 3,
-			"api": "csp_Local"
 		},
 		{
 			"key": "PushShare",
@@ -655,22 +454,6 @@
 			"filterable": 0,
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$socks5=http://192.168.4.9:7890$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-		{
-			"key": "PikPakShare",
-			"name": "PikPak分享",
-			"type": 3,
-			"api": "csp_PikPakShare",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 0,
-			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz$$$socks5=http://192.168.4.9:7890",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -723,67 +506,6 @@
 				"type": "list",
 				"ratio": 1.1
 			}
-		},
-		{
-			"key": "ThunderShare",
-			"name": "迅雷云盘分享",
-			"type": 3,
-			"api": "csp_ThunderShare",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 0,
-			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$./lib/thundershare.txt",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-		{
-			"key": "SambaShare",
-			"name": "Samba分享",
-			"type": 3,
-			"api": "csp_SambaShare",
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0,
-			"filterable": 0,
-			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$./lib/sambashare.txt"
-		},
-		{
-			"key": "直播转点播",
-			"name": "🐼️┃电视┃直播",
-			"type": 3,
-			"searchable": 0,
-			"api": "./lib/live2vod.js",
-			"ext": "./lib/feimaolive.json"
-		},
-		{
-			"key": "FirstAid",
-			"name": "🚑 急救知识 ",
-			"type": 3,
-			"api": "csp_FirstAid",
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0,
-			"style": {
-				"type": "rect",
-				"ratio": 3.8
-			}
-		},
-		{
-			"key": "drpy_js_磁力熊",
-			"name": "磁力熊[js]|索引",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/cilixiong.js",
-			"playerType": "3",
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 1,
-			"indexs": 1
 		},
 		{
 			"key": "Wo4k",
@@ -959,34 +681,6 @@
 			"filterable": 1,
 			"timeout": 120,
 			"ext": "./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"
-		},
-		{
-			"key": "drpy_js_愛盤搜",
-			"name": "爱盘搜[js]|夸",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/aipanso.js",
-			"quickSearch": 1,
-			"changeable": 1,
-			"timeout": 60,
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-		{
-			"key": "drpy_js_人人影视",
-			"name": "人人影视[js]|搜",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./js/yyets.js",
-			"quickSearch": 1,
-			"changeable": 1,
-			"timeout": 60,
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
 		},
 		{
 			"key": "Wogg",
