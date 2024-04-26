@@ -119,15 +119,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "Kanmeiju",
-			"name": "💯美剧┃王二小",
-			"type": 3,
-			"api": "csp_WexKanmeiju",
-			"jar": "./jar/wex4-25.txt",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
 			"key": "Subaibai",
 			"name": "🐇拜拜┃影视┃直连┃王二小",
 			"type": 3,
