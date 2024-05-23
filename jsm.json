@@ -699,15 +699,30 @@
 	],
 	"lives": [
 		{
-			"name": "2485",
+			"name": "综合1",
 			"type": 0,
-			"url": "http://api.lmxsd.cn/2485.txt",
+			"url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924111/live1.txt",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
-		
+		{
+			"name": "IPV6",
+			"type": 0,
+			"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+			"playerType": 1,
+			"ua": "okhttp/3.15",
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
+		},
+		{
+			"name": "央卫直播",
+			"type": 0,
+			"url": "./lives/zb.txt",
+			"playerType": 1,
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+		},
 		{
 			"name": "天微v4",
 			"type": 0,
@@ -727,144 +742,22 @@
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
-			"name": "定时更新",
+			"name": "综合",
 			"type": 0,
-			"url": "https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+			"url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
-			"name": "影视车",
+			"name": "IPV4",
 			"type": 0,
-			"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ZZVIP/pg/main/lives/影视车直播源.txt",
+			"url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:25:01/1714037101343/5511539/wexlive.txt",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "野火",
-			"type": 0,
-			"url": "./lives/野火.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "宇宙",
-			"type": 0,
-			"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ZZVIP/pg/main/lives/%E5%AE%87%E5%AE%99.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "通用版",
-			"type": 0,
-			"url": "./lives/ysp-api.php",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "央视频",
-			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
-			"type": 0,
-			"timeout": 40,
-			"url": "./lives/xiutan.m3u"
-		},
-		{
-			"name": "live.ipv6",
-			"type": 0,
-			"url": "http://127.0.0.1:10079/p/0/proxy/https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "live.ipv6.m3u",
-			"type": 0,
-			"url": "http://127.0.0.1:10079/p/0/proxy/https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "live.ipv6.local",
-			"type": 0,
-			"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ZZVIP/pg/main/lives/IPV6.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "live.fan",
-			"type": 0,
-			"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ZZVIP/pg/main/lives/tvlive.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "YTLive",
-			"type": 0,
-			"playerType": 1,
-			"url": "./lib/yo21.txt"
-		},
-		{
-			"name": "直播",
-			"type": 0,
-			"playerType": 1,
-			"url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
-			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "TXT",
-			"type": 0,
-			"playerType": 1,
-			"url": "http://home.jundie.top:81/Cat/tv/live.txt",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png",
-			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-		},
-		{
-			"name": "Json",
-			"type": 1,
-			"playerType": 1,
-			"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png",
-			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
-		},
-		{
-			"name": "live.feimao",
-			"type": 0,
-			"playerType": 1,
-			"url": "http://我不是.肥猫.live/TV/tvzb.txt",
-			"ua": "okhttp/3.12.13",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"group": "redirect",
-			"channels": [
-				{
-					"name": "redirect",
-					"urls": [
-						"proxy://do=live&type=live&proxy=&url="
-					]
-				}
-			]
 		}
 	],
 	"doh": [
