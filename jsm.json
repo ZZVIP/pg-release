@@ -12,24 +12,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "Wexbaipiao",
-			"name": "🌟星星┃影视┃直连┃王二小",
-			"type": 3,
-			"api": "csp_Wexbaipiao",
-			"jar": "./jar/wex-0ebb30b31b3ad5d4e9ab73b0e2f40a4b.txt",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
-			"key": "Wexjiajia",
-			"name": "🌜️阿亮┃TV┃App┃王二小",
-			"type": 3,
-			"api": "csp_Wexjiajia",
-			"jar": "./jar/wex-0ebb30b31b3ad5d4e9ab73b0e2f40a4b.txt",
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
 			"key": "Wexdiguatv",
 			"name": "⛷️追剧┃TV┃App┃王二小",
 			"type": 3,
@@ -164,6 +146,24 @@
 			"name": "🐸大鼻涕┃影视┃直连",
 			"type": 3,
 			"api": "csp_Wexbttwo",
+			"jar": "./jar/wex-0ebb30b31b3ad5d4e9ab73b0e2f40a4b.txt",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "Wexbaipiao",
+			"name": "🌟星星┃影视┃直连┃王二小",
+			"type": 3,
+			"api": "csp_Wexbaipiao",
+			"jar": "./jar/wex-0ebb30b31b3ad5d4e9ab73b0e2f40a4b.txt",
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "Wexjiajia",
+			"name": "🌜️阿亮┃TV┃App┃王二小",
+			"type": 3,
+			"api": "csp_Wexjiajia",
 			"jar": "./jar/wex-0ebb30b31b3ad5d4e9ab73b0e2f40a4b.txt",
 			"searchable": 1,
 			"changeable": 1
